@@ -1,12 +1,14 @@
-import Prismic from '@prismicio/client';
+import * as Prismic from '@prismicio/client';
 
 export function getPrismicClient(){
-  const prismic = Prismic.createClient(
-    'https://ignewsroot.prismic.io/api/v2',
+  
+  const endpoint = Prismic.getEndpoint('ignewsroot')
+  const client = Prismic.createClient(
+    endpoint,
     {
       accessToken: process.env.PRISMIC_ACCESS_TOKEN
     }
   );
 
-  return prismic;
+  return client;
 }
