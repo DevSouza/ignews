@@ -7,6 +7,9 @@ Durante esse módulo entenderemos como o front-end se transformou nos últimos a
 # Front-end JAMStack
 É muito comum o desenvolvimento de aplicações front-end que não estão conectadas a um único back-end hoje em dia, por isso, aqui vamos entender o conceito de JAMStack e como conectar nosso front-end com um CMS.
 
+# Testes unitários no React
+Nesse módulo vamos entender como criar testes automatizados de unidade dentro do React garantindo que nossos componentes e páginas continuem funcionando independente de novas manutenções. Tudo isso usando Jest e Testing Library. 
+
 # Home
 ![image](https://user-images.githubusercontent.com/24610869/148661877-7f1ff30e-2244-4634-adeb-506e8fb6f396.png)
 
