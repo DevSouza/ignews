@@ -1,3 +1,12 @@
+# Fundamentos do Next.js
+Nesse módulo entenderemos como o Next.js transforma a nossa maneira de desenvolver aplicações front-end e descobriremos conceitos importantes como SSR e SSG.
+
+# Back-end no front-end
+Durante esse módulo entenderemos como o front-end se transformou nos últimos anos com a possibilidade de termos funções back-end (serverless) executando em um ambiente front-end.
+
+# Front-end JAMStack
+É muito comum o desenvolvimento de aplicações front-end que não estão conectadas a um único back-end hoje em dia, por isso, aqui vamos entender o conceito de JAMStack e como conectar nosso front-end com um CMS.
+
 # Home
 ![image](https://user-images.githubusercontent.com/24610869/148661877-7f1ff30e-2244-4634-adeb-506e8fb6f396.png)
 
