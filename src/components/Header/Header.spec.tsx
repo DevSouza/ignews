@@ -15,13 +15,7 @@ jest.mock('next/router', () => {
 jest.mock('next-auth/react', () => {
   return {
     useSession: () => {
-      return {
-        user: {
-            name: 'Andre Souza',
-            email: 'devsouza01@gmail.com',
-            image: 'https://github.com/devsouza.png',
-        }
-      };
+      return {data: null, status: 'unauthenticated'}
     },
   };
 });
