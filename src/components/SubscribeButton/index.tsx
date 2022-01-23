@@ -4,11 +4,7 @@ import { api } from '../../services/api';
 import { getStripeJs } from '../../services/stripe-js';
 import styles from './styles.module.scss';
 
-interface SubscriberButtonProps {
-  priceId: string;
-}
-
-export function SubscriberButton(props: SubscriberButtonProps){
+export function SubscriberButton(){
   const { data: session } = useSession();
   const router = useRouter();
 
