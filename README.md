@@ -21,3 +21,24 @@ Nesse módulo vamos entender como criar testes automatizados de unidade dentro d
 
 #Post
 ![image](https://user-images.githubusercontent.com/24610869/148661950-423b6dba-be15-47d5-8ed7-8db018222847.png)
+
+# Comandos 
+- Run 
+```bash
+yarn dev
+```
+
+- Build
+```bash
+yarn build
+```
+
+- Run Tests
+```bash
+yarn test
+```
+
+- Run Test and generated coverage
+```bash
+yarn dev --coverage
+```
